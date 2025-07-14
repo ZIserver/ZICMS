@@ -1,0 +1,91 @@
+/* 基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 环境检测样式 */
+.env-check {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.env-check h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.env-check ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.env-check li {
+    margin-bottom: 10px;
+}
+
+.env-check .success {
+    color: green;
+    font-weight: bold;
+}
+
+.env-check .error {
+    color: red;
+    font-weight: bold;
+}
+
+/* 表单样式 */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* 错误消息样式 */
+.error {
+    color: red;
+    margin-bottom: 20px;
+}
